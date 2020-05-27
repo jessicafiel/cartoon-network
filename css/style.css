@@ -1,0 +1,332 @@
+/* =========================
+			Fontes 
+========================= */
+
+@font-face {
+    font-family: CN;
+    src: url(../fonts/cn-bold.ttf);
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(../fonts/whitney.ttf);
+}
+
+body{
+	font-family: "CN", sans-serif;
+}
+
+@media only screen and (min-width: 993px){
+  .container {
+    width: 95%;}
+}
+
+/* =========================
+			Helpers 
+========================= */
+
+.no-margin{
+	margin: 0 !important;
+}
+
+.no-padding{
+	padding: 0 !important;
+}
+
+.absolute{
+	position: absolute;
+}
+
+/* =========================
+			Cores 
+========================= */
+
+.azul{
+	background-color: #009ade !important;
+}
+
+.amarelo{
+	background-color: #ffea00 !important;
+}
+
+.rosa{
+	background-color: #ec0080 !important;
+}
+
+.cinza{
+	background-color: #4c4c4c !important;
+}
+
+.texto-cinza{
+	color: #4c4c4c !important;
+}
+
+/* =========================
+			Navbar 
+========================= */
+
+a{
+	color: inherit;
+}
+
+td{
+	padding: 0 !important;
+}
+
+nav{
+	height: 100px;
+	line-height: inherit;
+}
+
+.publicidade{
+	height: 100%;
+}
+
+.mais-info-botao{
+	width: 19px;
+	height: 19px;
+	border-radius: 2px;
+	font-size: 25px;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.mais-info-botao span{
+	line-height: 19px;
+}
+
+.horario-nav{
+	font-size: 40px;
+}
+
+.sub-nav{
+	height: 40px;
+}
+
+.logo-nav{
+	height: 50px;
+}
+
+.pesquisar{
+	height: 32px;
+	margin-top: 4px;
+	width: 300px;
+	font-family: "Whitney";
+}
+
+
+/* =========================
+			Footer 
+========================= */
+
+.logo-footer{
+	height: 70px;
+}
+
+.footer{
+	padding: 10px 0;
+	font-family: "Whitney";
+}
+
+.sub-footer{
+	padding: 5px 0;
+}
+
+.sub-footer a {
+	margin: 0 19px;
+	white-space: nowrap;
+}
+
+/* =========================
+		  Conteúdo 
+========================= */
+
+.dia-programacao{
+	border-top: solid 5px #ffea00;
+	padding: 8px 15px;
+	margin-top: 20px;
+}
+
+.tiles-programacao{
+	width: 780px;
+}
+
+.tile{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	margin: 3px;
+	font-size: 35px;
+	opacity: .7;
+	transition: .5s all;
+}
+
+.tiles-programacao {
+    font-size: 0;
+}
+
+.tile span{
+	line-height: 150px;
+	color: white;
+}
+
+.tile:hover{
+	opacity: 1;
+}
+
+.seta{
+	color: #aaa !important;
+	font-size: 105px;
+}
+
+.seta:hover{
+	color: black !important;
+}
+
+.sidebar-horario{
+	margin-left: 40px;
+}
+
+.sidebar-horario h1{
+	padding: 15px 0;
+	margin: 0;
+}
+
+.card-horario{
+	margin: 10px;
+	background-color: red;
+	height: 100px;
+}
+
+.card-horario:hover{
+	background-color: #fffdc7 !important;
+}
+
+.horario-vertical{
+	transform: rotate(-90deg);
+	color: #4c4c4c;
+	font-size: 38px;
+	line-height: 100px;
+    float: right;
+}
+
+.card-imagem{
+	height: 95px;
+}
+
+.card-texto{
+	line-height: 100px;
+	font-family: 'Whitney', sans-serif;
+	font-size: 22px;
+	word-wrap: break-word;
+}
+
+.classificacao{
+	padding: 10px 15px;
+	border: 3px solid white;
+	border-radius: 5px;
+	color: white;
+	font-size: 30px;
+	font-family: 'Whitney';
+}
+
+.titulo-desenho{
+	padding: 10px 0;
+}
+
+.titulo-desenho .imagem{
+	height: 100px;
+	width: 100px;	
+	border: 10px solid #ec0080;
+	border-radius: 500px;
+	background-color: white;
+	overflow: hidden;
+	position: absolute;
+	display: inline-block;
+	margin-left: -20px;
+}
+
+.info .titulo-desenho .imagem{
+	border-color: #009ade;
+}
+
+.titulo-desenho .imagem img{
+	width: 70px;	
+}
+
+.titulo-desenho span{
+	font-family: 'Whitney';
+}
+
+.titulo-desenho h5{
+	margin: 5px;
+}
+
+.titulo-desenho .texto{
+margin-left: 100px;
+}
+
+.dias{
+	width: 14.2%;
+	background-color: white;
+	display: inline-block;
+	font-family: 'Whitney';
+	text-align: center;
+	border: 3px solid #009ade;
+	color: #ec0080;
+	font-weight: bold;
+	padding: 5px 0;
+}
+
+.info .dias{
+	border-color: #ec0080;
+}
+
+.info .modal-footer{
+	font-family: 'Whitney';
+}
+
+.info .modal-footer span{
+	display: block;
+	padding: 15px;
+}
+
+.info span{
+	color: white;
+}
+
+.horario{
+	color: #ffea00;
+}
+
+.slider-wrapper{
+	background-color: #ec0080;
+	border-bottom: 20px solid #009ade;
+}
+
+/* the slides */
+.slick-slide img{
+    height: 180px !important;
+}
+
+.slider{
+	height: 180px !important;
+}
+
+/* the slides */
+.slick-slide img{
+    margin: 0 100px;
+}
+/* the parent */
+.slick-list>img{
+	top: -30px;
+    margin: 0 -100px;
+    padding: 0 50px !important;
+    display: inline;
+}
+
+.divider{
+	border: 3px solid #ffea00;
+}
